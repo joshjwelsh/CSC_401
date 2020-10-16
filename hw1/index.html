@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Enter Name Assignment 1</title>
+</head>
+<body>
+    <h1 class="main-head">Enter Name</h1>
+    <form name="EnterName">
+        <ol>
+            <li> Enter your name: <input type="text" name="myName"> </li> 
+            <li> Which greeting would you like to use: 
+                <input class="item" type="button" value="Hello" name="Hello" onclick="button(this.value)">
+                <input class="item" type="button" value="Hola" name="Hola" onclick="button(this.value)">
+                <input class="item" type="button" value="Heyo" name="Heyo" onclick="button(this.value)">
+                <input class="item" type="button" value="Hey" name="Hey" onclick="button(this.value)">
+        
+            </li>
+            <li> Click me if your ready: <input type=button onClick="getGreet()" value="Click"></li>
+            <li> <input type="text" name="greeting"></li>
+        </ol>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
